@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_input"
+        android:enabled="true"
+        android:title="입 력"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_day"
+        android:enabled="true"
+        android:title="D-day"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_diary"
+        android:enabled="true"
+        android:title="일 기"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_todo"
+        android:enabled="true"
+        android:title="할 일"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
